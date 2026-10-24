@@ -13,13 +13,31 @@
     "command": "npm start",
     "requiresCredentials": false,
     "validation": "passed",
-    "validatedAt": "2026-10-24T13:00:46.120921+00:00",
+    "validatedAt": "2026-10-24T15:13:01.619143+00:00",
     "isolatedInstallation": true,
     "sourceSha256": "92702d2da7305e883ddca657f41ffaa155c0cb15ae1a2bbf555774fa3a619917",
-    "manifestSha256": "59eeb0fff16d694ee486369ce77e3547dfb672aed09e52cd9af6c160a7f73ad1"
+    "manifestSha256": "061c3253e46e34361290c1a35457efe29e12f95370735f7df14e7043ea626ab6"
   },
   "npmPackages": [
     "@x12i/api-playground-docs"
   ],
-  "publisher": "x12i-publisher[bot]"
+  "publisher": "x12i-publisher[bot]",
+  "additionalExamples": {
+    "@x12i/api-playground": {
+      "packageVersion": "0.4.4",
+      "title": "Save a browser-local request history entry in an isolated DOM fixture",
+      "entrypoint": "src/api-playground-example.mjs",
+      "command": "npm run example:api-playground",
+      "requiresCredentials": false,
+      "validation": "passed",
+      "isolatedInstallation": true,
+      "sourceSha256": "c80586a29e607340351a0204e260bcef812d12ae27ffacc1dfa50c73215af13f",
+      "manifestSha256": "061c3253e46e34361290c1a35457efe29e12f95370735f7df14e7043ea626ab6",
+      "validatedAt": "2026-10-24T15:13:01.619143+00:00"
+    }
+  },
+  "validationFiles": {
+    "src/api-playground-example.mjs": "c80586a29e607340351a0204e260bcef812d12ae27ffacc1dfa50c73215af13f",
+    "src/index.mjs": "92702d2da7305e883ddca657f41ffaa155c0cb15ae1a2bbf555774fa3a619917"
+  }
 }
