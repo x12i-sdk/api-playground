@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "package": "@x12i/api-playground-docs",
+  "packageVersion": "0.4.0",
+  "npmUrl": "https://www.npmjs.com/package/@x12i/api-playground-docs",
+  "usageRepository": "https://github.com/x12i-sdk/api-playground",
+  "sourceRepository": "https://github.com/x12i/web-agentic-tools",
+  "sourceCommit": "adaddecd37858d6622bc977363c951988ef7b0a4",
+  "sourcePackageDirectory": "packages/api-playground-docs",
+  "example": {
+    "title": "List the bundled guides and read a use case",
+    "entrypoint": "src/index.mjs",
+    "command": "npm start",
+    "requiresCredentials": false,
+    "validation": "passed",
+    "validatedAt": "2026-10-24T13:00:46.120921+00:00",
+    "isolatedInstallation": true,
+    "sourceSha256": "92702d2da7305e883ddca657f41ffaa155c0cb15ae1a2bbf555774fa3a619917",
+    "manifestSha256": "59eeb0fff16d694ee486369ce77e3547dfb672aed09e52cd9af6c160a7f73ad1"
+  },
+  "npmPackages": [
+    "@x12i/api-playground-docs"
+  ],
+  "publisher": "x12i-publisher[bot]"
+}
